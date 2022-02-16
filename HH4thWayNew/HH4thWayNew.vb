@@ -88,7 +88,7 @@ Module SIPP
         Dim accruedintamount As Integer
         Dim SendEmail As Boolean
         Dim fName As String = ""
-        fName = "C:\IandFApps\4thWayReporting\Reports\4thWay" & DateTime.Now.Day.ToString() & DateTime.Now.Month.ToString() & DateTime.Now.Year.ToString() & ".csv"
+        fName = "C:\IandFApps\HH4thWayReporting\Reports\4thWay" & DateTime.Now.Day.ToString() & DateTime.Now.Month.ToString() & DateTime.Now.Year.ToString() & ".csv"
         Dim csv As String = String.Empty
 
         SendEmail = True
