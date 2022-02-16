@@ -35,7 +35,7 @@ Module SIPP
         'Dim sep = ;
 
         nameOfPDF = "4thWay" & DateTime.Now.Day.ToString() & DateTime.Now.Month.ToString() & DateTime.Now.Year.ToString() & ".csv"
-        path = System.IO.Path.GetFullPath("C:\IandFApps\4thWayReporting\Reports\4thWay" & DateTime.Now.Day.ToString() & DateTime.Now.Month.ToString() & DateTime.Now.Year.ToString() & ".csv")
+        path = System.IO.Path.GetFullPath("C:\IandFApps\HH4thWayReporting\Reports\4thWay" & DateTime.Now.Day.ToString() & DateTime.Now.Month.ToString() & DateTime.Now.Year.ToString() & ".csv")
 
         Dim bytes As Byte() = System.IO.File.ReadAllBytes(path)
 
